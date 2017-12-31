@@ -47,8 +47,7 @@ h2 > a {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #cccccc
-    ;
+    background-color: #cccccc;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -71,33 +70,34 @@ h2 > a {
     background: -webkit-radial-gradient(center, ellipse cover, #132c51 0%,#000000 100%);
     background: radial-gradient(ellipse at center, #132c51 0%,#000000 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#132c51', endColorstr='#000000',GradientType=1 );
+
 }
 
 .middle {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+
 }
 
 /* BORDER */
 .border {
-display: flex;
-/* align-items: center; */
-justify-content: space-around;
 width: 95vw;
 height: 95vh;
 margin: 2.5vh 2.5vw 2.5vh 2.5vw;
 border: 1px solid #F6FBFD;
 border-radius: 1em;
 
-}
-
-.content {
-height: 100%;
+display: flex;
 align-items: center;
+justify-content: space-around;
+}
 
-    
-}
 .nav {
-   
+    position: static;
+    width: 50%;
+    height: 50%;
 }
+
+.tnav {
+   
+} 
