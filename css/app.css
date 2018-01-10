@@ -98,6 +98,8 @@ justify-content: space-around;
     height: 50%;
 }
 
-.tnav {
-   
+.title-up {
+    align-self: flex-start;
+
+    
 } 
