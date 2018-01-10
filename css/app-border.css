@@ -66,9 +66,10 @@ h2 > a {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+    color: #cccccc;
   }
-  a:visited { color: white }
-
+  a:visited { color: #cccccc }
+  a:active{color:#cccccc;}
 p {
     padding: 0;
     margin: 0;
@@ -83,6 +84,7 @@ p {
     border-radius: 1em;
     display: flex;
     justify-content: space-around;
+    overflow: auto;
 }
 
 /* CONTENT */
@@ -93,17 +95,15 @@ p {
 
 }
 
-.grid-container .grid-x .grid-padding-x {
+.grid-x grid-padding-x out{
 padding: 0;
 margin: 0;
+width: 100%;
+overflow: auto;
 }
 
 .row {
     width: 100%;
-
-    padding: 2%;
-    
-   
 }
 
 .inf {
@@ -128,7 +128,7 @@ img {
     float: left;
     width: 100%;
     background: white;
-    height: 80vh;
+    height: 100%;
     overflow: auto;
 }
 
@@ -136,6 +136,6 @@ img {
     float: left;
     width: 100%;
     background: black;
-    height: 80vh;
+    height: 100%;
     overflow: auto;
 }

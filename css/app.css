@@ -60,7 +60,7 @@ h2 > a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  a:visited { color: white }
+  a:visited { color: #cccccc }
 
 /* CONTENT */
 
