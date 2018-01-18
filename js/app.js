@@ -33,7 +33,7 @@ $(document ).ready(function() {
 
 // ARBEITEN
 $(".w1").click(function() {
-  $(".work-1").show();
-  $(".content-work").hide(); 
+  $(".work-1").show().css("display", "flex");
+  $(".content-work").hide();
 });
 });

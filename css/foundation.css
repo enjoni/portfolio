@@ -505,7 +505,8 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+  flex-flow: row wrap;
+  }
   .row .row {
     margin-right: -0.9375rem;
     margin-left: -0.9375rem; }
@@ -905,8 +906,11 @@ textarea {
     margin-left: 33.33333%; }
   .large-6 {
     -ms-flex: 0 0 50%;
-        flex: 0 0 50%;
-    max-width: 50%; }
+    flex;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 0;
+    }
   .large-offset-5 {
     margin-left: 41.66667%; }
   .large-7 {
